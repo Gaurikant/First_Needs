@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stock1"
+    android:background="@drawable/pic3"
+    >
+
+    <ImageButton
+        android:id="@+id/wafers"
+        android:layout_width="151dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/kurkure" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:text="Wafers"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/cd"
+        android:layout_width="150dp"
+        android:layout_height="154dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/wafers"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/cd2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="51dp"
+        android:text="Cold Drinks"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/namkin"
+        android:layout_width="148dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="69dp"
+        app:srcCompat="@drawable/haldiram" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="51dp"
+        android:text="Namkin"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/maggi"
+        android:layout_width="146dp"
+        android:layout_height="138dp"
+        android:layout_alignBottom="@+id/namkin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        app:srcCompat="@drawable/maggie" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginEnd="70dp"
+        android:text="Maggie"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/cd"
+        android:layout_alignParentTop="true"
+        android:text=">"
+        android:textSize="30dp" />
+
+</RelativeLayout>

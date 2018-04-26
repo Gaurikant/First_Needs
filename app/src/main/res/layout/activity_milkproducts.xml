@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".milkproducts"
+    android:background="@drawable/pic3"
+    >
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="47dp"
+        android:text="Milk Products:-"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_marginTop="156dp"
+        android:text="Amul Butter:-"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/qty7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView21"
+        android:layout_alignTop="@+id/textView22"
+        android:text="AVL QTY:-"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/add7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/sub7"
+        android:layout_alignStart="@+id/qty7"
+        android:text="+"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sub7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/textView21"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="202dp"
+        android:text="-"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</RelativeLayout>

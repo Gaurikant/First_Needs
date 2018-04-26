@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stock2"
+    android:background="@drawable/pic3"
+    >
+
+    <ImageButton
+        android:id="@+id/choclates"
+        android:layout_width="144dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="63dp"
+        app:srcCompat="@drawable/chocolates" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="220dp"
+        android:text="chocolates"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/biscuits"
+        android:layout_width="162dp"
+        android:layout_height="132dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/choclates"
+        android:layout_marginEnd="29dp"
+        app:srcCompat="@drawable/biscuit" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_marginEnd="65dp"
+        android:text="Biscuits"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/milkproducts"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:layout_above="@+id/textView8"
+        android:layout_alignEnd="@+id/choclates"
+        app:srcCompat="@drawable/amul" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/choclates"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:text="MilkProducts"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
